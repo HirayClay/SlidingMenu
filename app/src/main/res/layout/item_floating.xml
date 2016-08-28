@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:gravity="center"
+        android:text="HEHHEH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="1000km"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+       <RelativeLayout
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content">
+           <RatingBar
+               android:layout_centerInParent="true"
+               style="?android:attr/ratingBarStyleSmall"
+               android:stepSize="0.5"
+               android:numStars="5"
+               android:rating="5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+       </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

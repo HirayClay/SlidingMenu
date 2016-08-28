@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.cjj.slidingmenu.widget.LoadingView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:ballonPadding="3dp"
+    app:ballon="3"
+    app:textSize="10sp"
+    app:minRadius="2dp"
+    app:maxRadius="5dp"
+    app:color="#ccc"
+    android:background="@drawable/null_bg"
+    android:layout_width="174px"
+    android:layout_height="94px" />

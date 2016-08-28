@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/null_bg"
+    tools:context="com.example.cjj.slidingmenu.MainActivity">
+<!--    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+    <Button
+        android:id="@+id/map"
+        android:onClick="click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="click"
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <include layout="@layout/loading_view"/>
+
+    <com.example.cjj.slidingmenu.widget.BreathingView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="center_vertical"
+        app:innerRadius="40dp"
+        app:outerRadius="50dp"
+        app:gapRadius="30dp"
+        app:innerColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

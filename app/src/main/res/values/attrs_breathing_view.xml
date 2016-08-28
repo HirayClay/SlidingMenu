@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="BreathingView">
+       <attr name="innerColor" format="color"/>
+        <attr name="innerRadius" format="dimension"/>
+        <attr name="outerRadius" format="dimension"/>
+        <attr name="gapRadius" format="dimension"/>
+    </declare-styleable>
+</resources>
